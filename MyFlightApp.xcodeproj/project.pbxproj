@@ -20,6 +20,15 @@
 		18E93A081887734C008B857D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E939E71887734B008B857D /* UIKit.framework */; };
 		18E93A101887734C008B857D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18E93A0E1887734C008B857D /* InfoPlist.strings */; };
 		18E93A121887734C008B857D /* MyFlightAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E93A111887734C008B857D /* MyFlightAppTests.m */; };
+		18E93A1C188777FC008B857D /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E93A1B188777FC008B857D /* Parse.framework */; };
+		18E93A1E1887781F008B857D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E93A1D1887781F008B857D /* CoreText.framework */; };
+		18E93A201887782E008B857D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E93A1F1887782E008B857D /* AudioToolbox.framework */; };
+		18E93A2218877839008B857D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E93A2118877839008B857D /* CFNetwork.framework */; };
+		18E93A241887784B008B857D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E93A231887784B008B857D /* CoreLocation.framework */; };
+		18E93A2618877855008B857D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E93A2518877855008B857D /* QuartzCore.framework */; };
+		18E93A281887785D008B857D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E93A271887785D008B857D /* Security.framework */; };
+		18E93A2A18877869008B857D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E93A2918877869008B857D /* SystemConfiguration.framework */; };
+		18E93A2C18877873008B857D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E93A2B18877873008B857D /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +59,16 @@
 		18E93A0D1887734C008B857D /* MyFlightAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFlightAppTests-Info.plist"; sourceTree = "<group>"; };
 		18E93A0F1887734C008B857D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18E93A111887734C008B857D /* MyFlightAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFlightAppTests.m; sourceTree = "<group>"; };
+		18E93A1B188777FC008B857D /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		18E93A1D1887781F008B857D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		18E93A1F1887782E008B857D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		18E93A2118877839008B857D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		18E93A231887784B008B857D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		18E93A2518877855008B857D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		18E93A271887785D008B857D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		18E93A2918877869008B857D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		18E93A2B18877873008B857D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		18E93A2E18877932008B857D /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +76,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E93A2C18877873008B857D /* MobileCoreServices.framework in Frameworks */,
+				18E93A2A18877869008B857D /* SystemConfiguration.framework in Frameworks */,
+				18E93A281887785D008B857D /* Security.framework in Frameworks */,
+				18E93A2618877855008B857D /* QuartzCore.framework in Frameworks */,
+				18E93A241887784B008B857D /* CoreLocation.framework in Frameworks */,
+				18E93A2218877839008B857D /* CFNetwork.framework in Frameworks */,
+				18E93A201887782E008B857D /* AudioToolbox.framework in Frameworks */,
+				18E93A1E1887781F008B857D /* CoreText.framework in Frameworks */,
 				18E939E61887734B008B857D /* CoreGraphics.framework in Frameworks */,
 				18E939E81887734B008B857D /* UIKit.framework in Frameworks */,
+				18E93A1C188777FC008B857D /* Parse.framework in Frameworks */,
 				18E939E41887734B008B857D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,6 +126,16 @@
 		18E939E21887734A008B857D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18E93A2E18877932008B857D /* FacebookSDK.framework */,
+				18E93A2B18877873008B857D /* MobileCoreServices.framework */,
+				18E93A2918877869008B857D /* SystemConfiguration.framework */,
+				18E93A271887785D008B857D /* Security.framework */,
+				18E93A2518877855008B857D /* QuartzCore.framework */,
+				18E93A231887784B008B857D /* CoreLocation.framework */,
+				18E93A2118877839008B857D /* CFNetwork.framework */,
+				18E93A1F1887782E008B857D /* AudioToolbox.framework */,
+				18E93A1D1887781F008B857D /* CoreText.framework */,
+				18E93A1B188777FC008B857D /* Parse.framework */,
 				18E939E31887734B008B857D /* Foundation.framework */,
 				18E939E51887734B008B857D /* CoreGraphics.framework */,
 				18E939E71887734B008B857D /* UIKit.framework */,
@@ -207,6 +245,7 @@
 			knownRegions = (
 				en,
 				Base,
+				he,
 			);
 			mainGroup = 18E939D71887734A008B857D;
 			productRefGroup = 18E939E11887734A008B857D /* Products */;
@@ -373,6 +412,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/brocpacholik/Documents/Developer/MyFlightApp,
+					/Users/brocpacholik/Documents/Developer/MyFlightApp/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyFlightApp/MyFlightApp-Prefix.pch";
 				INFOPLIST_FILE = "MyFlightApp/MyFlightApp-Info.plist";
@@ -386,6 +430,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/brocpacholik/Documents/Developer/MyFlightApp,
+					/Users/brocpacholik/Documents/Developer/MyFlightApp/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyFlightApp/MyFlightApp-Prefix.pch";
 				INFOPLIST_FILE = "MyFlightApp/MyFlightApp-Info.plist";
