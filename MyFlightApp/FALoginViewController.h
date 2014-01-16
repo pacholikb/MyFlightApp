@@ -17,4 +17,6 @@
 - (IBAction)login:(id)sender;
 - (IBAction)signUp:(id)sender;
 
+- (IBAction)loginButtonTouchHandler:(id)sender;
+
 @end
