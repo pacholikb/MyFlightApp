@@ -29,6 +29,18 @@
 		18E93A281887785D008B857D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E93A271887785D008B857D /* Security.framework */; };
 		18E93A2A18877869008B857D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E93A2918877869008B857D /* SystemConfiguration.framework */; };
 		18E93A2C18877873008B857D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E93A2B18877873008B857D /* MobileCoreServices.framework */; };
+		18E93C1E18877C47008B857D /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E93C1518877C47008B857D /* RECommonFunctions.m */; };
+		18E93C1F18877C47008B857D /* REMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E93C1718877C47008B857D /* REMenu.m */; };
+		18E93C2018877C47008B857D /* REMenuContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E93C1918877C47008B857D /* REMenuContainerView.m */; };
+		18E93C2118877C47008B857D /* REMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E93C1B18877C47008B857D /* REMenuItem.m */; };
+		18E93C2218877C47008B857D /* REMenuItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E93C1D18877C47008B857D /* REMenuItemView.m */; };
+		18E93C2518877CF5008B857D /* FAMenuItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E93C2418877CF5008B857D /* FAMenuItemViewController.m */; };
+		18E93C2818877D1B008B857D /* FAMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E93C2718877D1B008B857D /* FAMenuViewController.m */; };
+		18E93C2B18877EC2008B857D /* FASearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E93C2A18877EC2008B857D /* FASearchViewController.m */; };
+		18E93C2E18877ED0008B857D /* FARecentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E93C2D18877ED0008B857D /* FARecentViewController.m */; };
+		18E93C3118877EDF008B857D /* FAProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E93C3018877EDF008B857D /* FAProfileViewController.m */; };
+		18E93C33188780B6008B857D /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E93C32188780B6008B857D /* FacebookSDK.framework */; };
+		18E93C3618878411008B857D /* FALoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E93C3518878411008B857D /* FALoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +80,29 @@
 		18E93A271887785D008B857D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		18E93A2918877869008B857D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		18E93A2B18877873008B857D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		18E93A2E18877932008B857D /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		18E93C1418877C47008B857D /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		18E93C1518877C47008B857D /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		18E93C1618877C47008B857D /* REMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMenu.h; sourceTree = "<group>"; };
+		18E93C1718877C47008B857D /* REMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMenu.m; sourceTree = "<group>"; };
+		18E93C1818877C47008B857D /* REMenuContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMenuContainerView.h; sourceTree = "<group>"; };
+		18E93C1918877C47008B857D /* REMenuContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMenuContainerView.m; sourceTree = "<group>"; };
+		18E93C1A18877C47008B857D /* REMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMenuItem.h; sourceTree = "<group>"; };
+		18E93C1B18877C47008B857D /* REMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMenuItem.m; sourceTree = "<group>"; };
+		18E93C1C18877C47008B857D /* REMenuItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMenuItemView.h; sourceTree = "<group>"; };
+		18E93C1D18877C47008B857D /* REMenuItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMenuItemView.m; sourceTree = "<group>"; };
+		18E93C2318877CF5008B857D /* FAMenuItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAMenuItemViewController.h; sourceTree = "<group>"; };
+		18E93C2418877CF5008B857D /* FAMenuItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAMenuItemViewController.m; sourceTree = "<group>"; };
+		18E93C2618877D1B008B857D /* FAMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAMenuViewController.h; sourceTree = "<group>"; };
+		18E93C2718877D1B008B857D /* FAMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAMenuViewController.m; sourceTree = "<group>"; };
+		18E93C2918877EC2008B857D /* FASearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FASearchViewController.h; sourceTree = "<group>"; };
+		18E93C2A18877EC2008B857D /* FASearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FASearchViewController.m; sourceTree = "<group>"; };
+		18E93C2C18877ED0008B857D /* FARecentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FARecentViewController.h; sourceTree = "<group>"; };
+		18E93C2D18877ED0008B857D /* FARecentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FARecentViewController.m; sourceTree = "<group>"; };
+		18E93C2F18877EDF008B857D /* FAProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAProfileViewController.h; sourceTree = "<group>"; };
+		18E93C3018877EDF008B857D /* FAProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAProfileViewController.m; sourceTree = "<group>"; };
+		18E93C32188780B6008B857D /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		18E93C3418878411008B857D /* FALoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FALoginViewController.h; sourceTree = "<group>"; };
+		18E93C3518878411008B857D /* FALoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FALoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E93C33188780B6008B857D /* FacebookSDK.framework in Frameworks */,
 				18E93A2C18877873008B857D /* MobileCoreServices.framework in Frameworks */,
 				18E93A2A18877869008B857D /* SystemConfiguration.framework in Frameworks */,
 				18E93A281887785D008B857D /* Security.framework in Frameworks */,
@@ -108,9 +143,9 @@
 			isa = PBXGroup;
 			children = (
 				18E939E91887734B008B857D /* MyFlightApp */,
-				18E93A0B1887734C008B857D /* MyFlightAppTests */,
 				18E939E21887734A008B857D /* Frameworks */,
 				18E939E11887734A008B857D /* Products */,
+				18E93A0B1887734C008B857D /* MyFlightAppTests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,7 +161,8 @@
 		18E939E21887734A008B857D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				18E93A2E18877932008B857D /* FacebookSDK.framework */,
+				18E93C32188780B6008B857D /* FacebookSDK.framework */,
+				18E93C1318877C47008B857D /* REMenu */,
 				18E93A2B18877873008B857D /* MobileCoreServices.framework */,
 				18E93A2918877869008B857D /* SystemConfiguration.framework */,
 				18E93A271887785D008B857D /* Security.framework */,
@@ -149,8 +185,20 @@
 			children = (
 				18E939F21887734B008B857D /* FAAppDelegate.h */,
 				18E939F31887734B008B857D /* FAAppDelegate.m */,
+				18E93C2318877CF5008B857D /* FAMenuItemViewController.h */,
+				18E93C2418877CF5008B857D /* FAMenuItemViewController.m */,
+				18E93C2618877D1B008B857D /* FAMenuViewController.h */,
+				18E93C2718877D1B008B857D /* FAMenuViewController.m */,
+				18E93C2918877EC2008B857D /* FASearchViewController.h */,
+				18E93C2A18877EC2008B857D /* FASearchViewController.m */,
+				18E93C2C18877ED0008B857D /* FARecentViewController.h */,
+				18E93C2D18877ED0008B857D /* FARecentViewController.m */,
+				18E93C2F18877EDF008B857D /* FAProfileViewController.h */,
+				18E93C3018877EDF008B857D /* FAProfileViewController.m */,
 				18E939FE1887734B008B857D /* Images.xcassets */,
 				18E939F51887734B008B857D /* Main.storyboard */,
+				18E93C3418878411008B857D /* FALoginViewController.h */,
+				18E93C3518878411008B857D /* FALoginViewController.m */,
 				18E939EA1887734B008B857D /* Supporting Files */,
 			);
 			path = MyFlightApp;
@@ -183,6 +231,23 @@
 				18E93A0E1887734C008B857D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18E93C1318877C47008B857D /* REMenu */ = {
+			isa = PBXGroup;
+			children = (
+				18E93C1418877C47008B857D /* RECommonFunctions.h */,
+				18E93C1518877C47008B857D /* RECommonFunctions.m */,
+				18E93C1618877C47008B857D /* REMenu.h */,
+				18E93C1718877C47008B857D /* REMenu.m */,
+				18E93C1818877C47008B857D /* REMenuContainerView.h */,
+				18E93C1918877C47008B857D /* REMenuContainerView.m */,
+				18E93C1A18877C47008B857D /* REMenuItem.h */,
+				18E93C1B18877C47008B857D /* REMenuItem.m */,
+				18E93C1C18877C47008B857D /* REMenuItemView.h */,
+				18E93C1D18877C47008B857D /* REMenuItemView.m */,
+			);
+			path = REMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,7 +350,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				18E939F01887734B008B857D /* main.m in Sources */,
+				18E93C1E18877C47008B857D /* RECommonFunctions.m in Sources */,
+				18E93C2118877C47008B857D /* REMenuItem.m in Sources */,
+				18E93C2E18877ED0008B857D /* FARecentViewController.m in Sources */,
+				18E93C2818877D1B008B857D /* FAMenuViewController.m in Sources */,
+				18E93C2218877C47008B857D /* REMenuItemView.m in Sources */,
 				18E939F41887734B008B857D /* FAAppDelegate.m in Sources */,
+				18E93C1F18877C47008B857D /* REMenu.m in Sources */,
+				18E93C2B18877EC2008B857D /* FASearchViewController.m in Sources */,
+				18E93C2018877C47008B857D /* REMenuContainerView.m in Sources */,
+				18E93C2518877CF5008B857D /* FAMenuItemViewController.m in Sources */,
+				18E93C3618878411008B857D /* FALoginViewController.m in Sources */,
+				18E93C3118877EDF008B857D /* FAProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +492,7 @@
 					"$(inherited)",
 					/Users/brocpacholik/Documents/Developer/MyFlightApp,
 					/Users/brocpacholik/Documents/Developer/MyFlightApp/FacebookSDK,
+					/Users/brocpacholik/Documents/Developer/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyFlightApp/MyFlightApp-Prefix.pch";
@@ -434,6 +511,7 @@
 					"$(inherited)",
 					/Users/brocpacholik/Documents/Developer/MyFlightApp,
 					/Users/brocpacholik/Documents/Developer/MyFlightApp/FacebookSDK,
+					/Users/brocpacholik/Documents/Developer/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyFlightApp/MyFlightApp-Prefix.pch";

@@ -7,12 +7,33 @@
 //
 
 #import "FAAppDelegate.h"
+#import "REMenu.h"
+#import <Parse/Parse.h>
+#import <FacebookSDK/FacebookSDK.h>
 
 @implementation FAAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    //Parse
+    [Parse setApplicationId:@"mCkWu97Ihyq15GatzIG8j4qznXjHj6Oazw8EiylD"
+                  clientKey:@"ysMXari68iDq8bSnXU85i44W86mEcuxaZHYoJBjx"];
+    
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+    [PFFacebookUtils initializeFacebook];
+    
+    
+    //Status Bar
+    [[UIApplication sharedApplication] setStatusBarStyle: UIStatusBarStyleLightContent];
+    
+    //Navigation Bar
+    NSMutableDictionary* titleBarAttributes = [NSMutableDictionary dictionaryWithDictionary:[[UINavigationBar appearance] titleTextAttributes]];
+    
+    [titleBarAttributes setValue: [UIColor whiteColor] forKey: UITextAttributeTextColor];
+    
+    [[UINavigationBar appearance] setTitleTextAttributes: titleBarAttributes];
+    
     return YES;
 }
 							
@@ -41,6 +62,7 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    [FBSession.activeSession close];
 }
 
 @end
