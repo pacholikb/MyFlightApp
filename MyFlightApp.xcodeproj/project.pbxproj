@@ -41,6 +41,7 @@
 		18E93C3118877EDF008B857D /* FAProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E93C3018877EDF008B857D /* FAProfileViewController.m */; };
 		18E93C33188780B6008B857D /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E93C32188780B6008B857D /* FacebookSDK.framework */; };
 		18E93C3618878411008B857D /* FALoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E93C3518878411008B857D /* FALoginViewController.m */; };
+		18E93C3918878C97008B857D /* FASignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E93C3818878C97008B857D /* FASignUpViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +104,8 @@
 		18E93C32188780B6008B857D /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		18E93C3418878411008B857D /* FALoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FALoginViewController.h; sourceTree = "<group>"; };
 		18E93C3518878411008B857D /* FALoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FALoginViewController.m; sourceTree = "<group>"; };
+		18E93C3718878C97008B857D /* FASignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FASignUpViewController.h; sourceTree = "<group>"; };
+		18E93C3818878C97008B857D /* FASignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FASignUpViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,10 +198,12 @@
 				18E93C2D18877ED0008B857D /* FARecentViewController.m */,
 				18E93C2F18877EDF008B857D /* FAProfileViewController.h */,
 				18E93C3018877EDF008B857D /* FAProfileViewController.m */,
-				18E939FE1887734B008B857D /* Images.xcassets */,
-				18E939F51887734B008B857D /* Main.storyboard */,
 				18E93C3418878411008B857D /* FALoginViewController.h */,
 				18E93C3518878411008B857D /* FALoginViewController.m */,
+				18E93C3718878C97008B857D /* FASignUpViewController.h */,
+				18E93C3818878C97008B857D /* FASignUpViewController.m */,
+				18E939FE1887734B008B857D /* Images.xcassets */,
+				18E939F51887734B008B857D /* Main.storyboard */,
 				18E939EA1887734B008B857D /* Supporting Files */,
 			);
 			path = MyFlightApp;
@@ -352,6 +357,7 @@
 				18E939F01887734B008B857D /* main.m in Sources */,
 				18E93C1E18877C47008B857D /* RECommonFunctions.m in Sources */,
 				18E93C2118877C47008B857D /* REMenuItem.m in Sources */,
+				18E93C3918878C97008B857D /* FASignUpViewController.m in Sources */,
 				18E93C2E18877ED0008B857D /* FARecentViewController.m in Sources */,
 				18E93C2818877D1B008B857D /* FAMenuViewController.m in Sources */,
 				18E93C2218877C47008B857D /* REMenuItemView.m in Sources */,

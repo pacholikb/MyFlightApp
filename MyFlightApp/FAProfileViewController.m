@@ -37,7 +37,7 @@
 
 - (IBAction)logout:(id)sender {
     [PFUser logOut];
-    [self performSegueWithIdentifier:@"showLogin" sender:self];
+    [self performSegueWithIdentifier:@"showLoggedOut" sender:self];
 }
 
 

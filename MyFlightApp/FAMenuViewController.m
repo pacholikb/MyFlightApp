@@ -66,7 +66,7 @@
                                                                  }
                                                                  else
                                                                  {*/
-                                                                FAProfileViewController* viewController = [ self.storyboard instantiateViewControllerWithIdentifier : @"FAProfileViewController" ] ;
+                                                                FAProfileViewController* viewController = [ self.storyboard instantiateViewControllerWithIdentifier : @"FALoginViewController" ] ;
                                                                 [ weakSelf setViewControllers : @[ viewController ] animated : NO ] ;
                                                                 
                                                             } ] ;
